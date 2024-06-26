@@ -1,0 +1,77 @@
+<html>
+ <head>
+  <link rel="stylsheet" href="anime1.css">
+  <style>
+   	h1{
+	  color: red;
+	  background: green;
+	  //width: 50%;
+	  position: absolute;
+	  animation-name: change;
+	  animation-duration: 1s;
+	  animation-iteration-count: infinite;
+	  animation-timing-function: linear; 
+	}
+	body{
+		
+		animation: disco 0.5s linear infinite; 
+	}
+   	body:hover{
+		animation: none; 
+	}
+	@keyframes change{
+	  0%{
+		top: 0px;
+		left: 0px;
+		color: white;
+		background: green;
+	   }
+	  25%{
+		top: 90%;
+		left: 0px;
+		color: white;
+		background: orange;
+	  }
+	   50%{
+		top: 90%;
+		left: 90%;
+		color: white;
+		background: red;
+	  }
+	   75%{
+		top: 0px;
+		left: 90%;
+		color: white;
+		background: blue;
+	  }
+	  100%{
+		top: 0px;
+		left: 0px;
+		color: white;
+		background: red;
+	  }
+	}
+
+	@keyframes disco{
+	  0%{
+		background: green;
+	   }
+	  25%{
+		background: orange;
+	  }
+	   50%{
+		background: red;
+	  }
+	   75%{
+		background: blue;
+	  }
+	  100%{
+		background: white;
+	  }
+	}
+  </style>
+ </head>
+ <body>
+	<h1> saheel</h1>
+ </body>
+</html>
